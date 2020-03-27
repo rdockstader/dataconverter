@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="ab198f81-2762-46d0-ad97-f164522abb14" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://evolution.journaltech.com/EvoAPI" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="JustWareApi.xsd" MetadataType="Schema" ID="8bb68354-52ae-487d-a48b-85b81ae77048" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?xsd=xsd1" />
+    <MetadataFile FileName="JustWareApi1.xsd" MetadataType="Schema" ID="980c7ff4-fdf3-4064-b567-851b18249c70" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?xsd=xsd0" />
+    <MetadataFile FileName="JustWareApi.disco" MetadataType="Disco" ID="a0125fb3-1171-4086-b9ac-d0de34d0b7f2" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?disco" />
+    <MetadataFile FileName="JustWareApi.wsdl" MetadataType="Wsdl" ID="df29245f-7c2e-4073-9ed7-6f036b518a60" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?wsdl" />
+    <MetadataFile FileName="JustWareApi2.xsd" MetadataType="Schema" ID="c8e46dac-ac07-44d4-ba0b-af1898aafcef" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?xsd=xsd4" />
+    <MetadataFile FileName="JustWareApi3.xsd" MetadataType="Schema" ID="3a2b745a-5e42-4d7d-9f99-6341dbc79031" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?xsd=xsd3" />
+    <MetadataFile FileName="JustWareApi4.xsd" MetadataType="Schema" ID="ea13f165-1d84-4cc3-8d67-5da1ee868332" SourceId="1" SourceUrl="https://evolution.journaltech.com/EvoAPI/JustWareApi.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
